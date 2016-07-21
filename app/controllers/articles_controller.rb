@@ -1,4 +1,6 @@
 class ArticlesController < ApplicationController
+    # user must be authenticated on every action except index and show
+    http_basic_authenticate_with name: "kemal", password: "admin", except: [:index, :show]
     
     def index
       @articles = Article.all
