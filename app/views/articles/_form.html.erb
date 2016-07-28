@@ -1,5 +1,5 @@
 <%= form_for @article do |f| %>
- 
+   <!--  check if there are any errors -->  
   <% if @article.errors.any? %>
     <div id="error_explanation">
       <h2>
@@ -7,6 +7,7 @@
         this article from being saved:
       </h2>
       <ul>
+       <!--  and in that case we show a list of all errors with @article.errors.full_messages -->
         <% @article.errors.full_messages.each do |msg| %>
           <li><%= msg %></li>
         <% end %>

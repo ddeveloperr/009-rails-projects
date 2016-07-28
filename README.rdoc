@@ -1,28 +1,12 @@
-== README
+#### Rails Blog step by step, without using scaffolding!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#####What I learnd here?***
+===========================
+In this Project I master all details about building rails application, step by step, without using scaffolding!
+Finally, there are no details of code that is unclear to me!  :}
 
-Things you may want to cover:
+How to get the most out of coding this simple Rails project? 
 
-* Ruby version
+Simple: Analyze each commit, each lines of code.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+I gone to the next Rails project!
